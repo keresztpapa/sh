@@ -9,27 +9,23 @@ check_snap () {
 	fi
 }
 
-sudo apt install wireshark -y 
-sudo apt install nmap -y
-sudo apt install ettercap-text-only -y
-sudo check_snap
-sudo snap install discord 
-sudo apt install virtualbox
-sudo apt install software-properties-common -y
-sudo add-apt-repository ppa:deadsnakes/ppa -y
-sudo apt install python3.8
-sudo apt install python3-pip
-sudo snap install --classic code
-sudo apt-get htop 
+apt install wireshark -y 
+apt install nmap -y
+apt install ettercap-text-only -y
+check_snap
+snap install discord 
+apt install virtualbox
+apt install software-properties-common -y
+add-apt-repository ppa:deadsnakes/ppa -y
+apt install python3.8
+apt install python3-pip
+snap install --classic code
+apt-get htop 
+apt install net-tools
 
 
-sudo apt install software-properties-common apt-transport-https wget
-wget -q https://packagecloud.io/AtomEditor/atom/gpgkey -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main" -y
-sudo apt install atom -y
-
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt autoremove -y
+apt-get update
+apt-get upgrade -y
+apt autoremove -y
 
 
