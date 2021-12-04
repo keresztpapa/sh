@@ -20,7 +20,7 @@ add-apt-repository ppa:deadsnakes/ppa -y
 apt install python3.10 -y
 apt install python3-pip -y
 snap install --classic code -y
-apt-get bashtop -y
+snap install bashtop 
 apt install net-tools -y
 apt install neofetch -y
 
