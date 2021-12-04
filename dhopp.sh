@@ -22,7 +22,7 @@ apt install python3-pip -y
 snap install --classic code -y
 apt-get bashtop -y
 apt install net-tools -y
-
+apt install neofetch -y
 
 apt-get update
 apt-get upgrade -y
