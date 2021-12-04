@@ -23,6 +23,7 @@ snap install --classic code -y
 snap install bashtop 
 apt install net-tools -y
 apt install neofetch -y
+apt install retroarch -y
 
 apt-get update
 apt-get upgrade -y
