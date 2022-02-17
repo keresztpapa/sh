@@ -36,6 +36,8 @@ apt install dconf-editor
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
 gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 
+gsettings get org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/warty-final-ubuntu.png'
+
 apt install fish
 
 
