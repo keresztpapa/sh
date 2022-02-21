@@ -24,7 +24,6 @@ check_snap
 snap install discord -y
 apt install virtualbox -y
 apt install software-properties-common -y
-add-apt-repository ppa:deadsnakes/ppa -y
 apt install python3.10 -y
 apt install python3-pip -y
 snap install --classic code -y
