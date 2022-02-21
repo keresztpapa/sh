@@ -38,9 +38,10 @@ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings get org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/warty-final-ubuntu.png'
 
 apt install fish
+add-apt-repository multiverse
+apt update
+apt install steam -y
 
-
-apt-get update
 apt-get upgrade -y
 apt autoremove -y
 
