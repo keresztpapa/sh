@@ -30,6 +30,7 @@ snap install --classic code -y
 apt install net-tools -y
 apt install neofetch -y
 apt install retroarch -y
+python -m pip install ansible
 
 apt install dconf-editor
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
@@ -38,9 +39,6 @@ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
 gsettings get org.gnome.desktop.background picture-uri 'file:///usr/share/backgrounds/warty-final-ubuntu.png'
 
 apt install fish
-add-apt-repository multiverse
-apt update
-apt install steam -y
 
 apt-get upgrade -y
 apt autoremove -y
