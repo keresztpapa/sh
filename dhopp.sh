@@ -17,6 +17,11 @@ check_distro(){
 	fi
 }
 
+if ! [ $(id -u) = 0 ]; then
+   echo "I am not root!"
+   exit 1
+fi
+
 apt install wireshark -y 
 apt install nmap -y
 apt install ettercap-text-only -y
