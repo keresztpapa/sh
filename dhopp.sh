@@ -17,9 +17,10 @@ check_distro(){
 	fi
 }
 
-if ! [ $(id -u) = 0 ]; then
-   echo "I am not root!"
-   exit 1
+if [ `whoami` != 'root' ]
+  then
+    echo "You must be root to do this."
+    exit
 fi
 
 apt install wireshark -y 
